@@ -1,6 +1,6 @@
-import {SearchesBox} from "./components/molecules/SearchesBox";
-import {Map} from "./components/atoms/Map";
-import {Layout} from "./components/atoms/Layout";
+import {SearchesBox} from "../components/molecules/SearchesBox";
+import {Map} from "../components/atoms/Map";
+import {Layout} from "../components/atoms/Layout";
 import {useRouter} from "next/router";
 import {useSearchState} from "../context/SearchContext";
 

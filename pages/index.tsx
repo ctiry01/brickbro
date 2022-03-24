@@ -1,8 +1,8 @@
 import styled from "styled-components";
 import React, {useEffect} from "react";
-import {FormInput} from "./components/molecules/FormInput";
+import {FormInput} from "../components/molecules/FormInput";
 import {useRouter} from "next/router";
-import {Layout} from "./components/atoms/Layout";
+import {Layout} from "../components/atoms/Layout";
 
 export default function Home() {
     const router = useRouter();

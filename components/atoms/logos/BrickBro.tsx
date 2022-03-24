@@ -1,4 +1,4 @@
-import {SvgLogo} from "../../../../types/types";
+import {SvgLogo} from "../../../types/types";
 
 export const BrickBro = ({size = 150} : SvgLogo) => {
     return (

@@ -2,7 +2,7 @@ import React, {useEffect, useLayoutEffect, useRef, useState} from "react";
 import styled from "styled-components";
 import {Button} from "../atoms/Button";
 import TextInput from "../atoms/TextInput";
-import {PutSearchAction, useSearchDispatcher} from "../../../context/SearchContext";
+import {PutSearchAction, useSearchDispatcher} from "../../context/SearchContext";
 
 interface FormInputProps {
     onClick: Function

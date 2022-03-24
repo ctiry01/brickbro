@@ -14,7 +14,7 @@ function MyApp({Component, pageProps}: AppProps) {
         return (
             <Script
                 id="google-maps-js"
-                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD-6Vm69QsQZMszzGPi9W4RM7tWg9CspKQ"
+                src="https://maps.googleapis.com/maps/api/js?key=GOOGLE_KEY"
                 onLoad={() => {
                     setLoadScript(true)
                 }}

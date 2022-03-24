@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import React from "react";
-import {useSearchState} from "../../../context/SearchContext";
+import {useSearchState} from "../../context/SearchContext";
 import {Card} from "../atoms/Card";
 
 export const SearchesBox = () => {
